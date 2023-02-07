@@ -1,5 +1,5 @@
 # MPA_Coursework
-Mobile Platform Applications Coursework
+Mobile Platform Applications Coursework (2022)
 
 Restaurants are one of the most common, if not the most common, businesses today, and it's surprising that, despite modern technology, calling some restaurants to reserve a table is still necessary.
 The proposal for this project is to develop an app that allows consumers to check which restaurants are open and make reservations without having to call the establishment.
