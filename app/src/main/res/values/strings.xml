@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RestBook</string>
+    <string name="logo_word">Logo</string>
+    <string name="signIn_word">Sign In</string>
+    <string name="email_word">Email</string>
+    <string name="email_example">example@email.com</string>
+    <string name="password_word">Password</string>
+    <string name="confirm_password_word">Confirm Password</string>
+    <string name="password_example">password1234</string>
+    <string name="google_word">Google</string>
+    <string name="or_word">or</string>
+    <string name="forgot_password_word">Forgot Password?</string>
+    <string name="signUp_word">Sign Up</string>
+    <string name="have_account">Have an Account?</string>
+    <string name="welcome_word">Welcome!</string>
+    <string name="givenName_word">Name</string>
+    <string name="surname_word">Surname</string>
+    <string name="save_word">Save</string>
+    <string name="userName_word">User Name</string>
+    <string name="signOut_word">Sign Out</string>
+    <string name="resetPass_word">Reset Password</string>
+    <string name="restaurant_word">Restaurants</string>
+    <string name="reservations_word">Reservations</string>
+    <string name="user_word">User</string>
+    <string name="restaurantName_word">Restaurant Name</string>
+    <string name="rating_word">Rating</string>
+    <string name="details_word">Details</string>
+    <string name="reserveTable_word">Reserve a Table</string>
+</resources>

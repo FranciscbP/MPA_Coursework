@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make a Reservation"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/guests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of Guests"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint='Date'
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:hint="Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/makeReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/main_color"
+        android:onClick="makeReservation"
+        android:text="Make Reservation"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:onClick="closeDialog"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        app:cornerRadius="5dp"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck"
+
+        />
+
+</LinearLayout>

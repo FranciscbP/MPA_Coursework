@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.restbook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RestBook">
+        <activity
+            android:name=".RestaurantInfo"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".UserPage"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Reservations"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".Restaurants"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".WelcomePage"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

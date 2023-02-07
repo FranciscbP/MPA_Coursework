@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/restaurants_frag">
+
+    <fragment
+        android:id="@+id/restaurants_frag"
+        android:name="com.example.restbook.restaurants"
+        android:label="fragment_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+    <fragment
+        android:id="@+id/reservations_frag"
+        android:name="com.example.restbook.reservations"
+        android:label="fragment_reservations"
+        tools:layout="@layout/fragment_reservations" />
+    <fragment
+        android:id="@+id/settings_frag"
+        android:name="com.example.restbook.settings"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
